@@ -57,3 +57,20 @@ p {
 ul, li {
     list-style: none;
 }
+a {
+    display: block;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    padding: 12px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: var(--neon-green);
+    color: var(--dark-grey);
+    transition: 0.4s;
+}
