@@ -8,11 +8,13 @@
 }
 
 :root {
-    --black: #141414;
     --dark-grey: #1F1F1F;
-    --white: #FFF;
-    --neon-green: #C4F82A;
     --grey: #333333;
+    --red: #FF0000;
+    --white: #FFF;
+    --black: #141414;
+    
+    
 }
 
 body {
@@ -42,11 +44,13 @@ h1 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 4px;
+    line-height: 150%;
 }
 
 strong {
-    color: var(--neon-green);
+    color: var(--red);
     font-size: 14px;
+    line-height: 150%;
 }
 
 p {
@@ -69,8 +73,8 @@ a {
     border-radius: 8px;
 }
 
-a:hover {
-    background-color: var(--neon-green);
-    color: var(--dark-grey);
-    transition: 0.4s;
+a:hover{
+    background-color: var(--red);
+    color: var(--black);
+    transition: .4s;
 }
